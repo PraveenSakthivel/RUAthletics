@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC0CC0D91FBD36E1008693CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0CC0D81FBD36E1008693CD /* AppDelegate.swift */; };
+		AC0CC0DE1FBD36E1008693CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0CC0DC1FBD36E1008693CD /* Main.storyboard */; };
+		AC0CC0E01FBD36E1008693CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC0CC0DF1FBD36E1008693CD /* Assets.xcassets */; };
+		AC0CC0E31FBD36E1008693CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0CC0E11FBD36E1008693CD /* LaunchScreen.storyboard */; };
+		AC0CC0EE1FBD36E2008693CD /* RUAthleticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0CC0ED1FBD36E2008693CD /* RUAthleticsTests.swift */; };
+		AC0CC0F91FBD37E9008693CD /* AthleticsNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0CC0F81FBD37E9008693CD /* AthleticsNews.swift */; };
+		AC0CC0FB1FBD38D5008693CD /* NewsArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0CC0FA1FBD38D5008693CD /* NewsArticle.swift */; };
+		AC0CC0FD1FBD390E008693CD /* StringKeyPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0CC0FC1FBD390E008693CD /* StringKeyPair.swift */; };
+		AC7EFDE91FBFDE0A008BE79B /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7EFDE71FBFDE09008BE79B /* SWRevealViewController.m */; };
+		AC7EFDEB1FBFE196008BE79B /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7EFDEA1FBFE196008BE79B /* Menu.swift */; };
+		AC7EFDED1FBFE605008BE79B /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7EFDEC1FBFE605008BE79B /* Header.swift */; };
+		AC7EFDEF1FBFF438008BE79B /* GeneralEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7EFDEE1FBFF438008BE79B /* GeneralEvents.swift */; };
+		AC7EFDF11FBFF97C008BE79B /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7EFDF01FBFF97C008BE79B /* ImageCell.swift */; };
+		AC7EFDF31FC27A57008BE79B /* GEWebpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7EFDF21FC27A57008BE79B /* GEWebpage.swift */; };
+		AC7EFDF51FC2836C008BE79B /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7EFDF41FC2836C008BE79B /* NavController.swift */; };
+		AC7EFDF71FC3B72F008BE79B /* Description Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7EFDF61FC3B72F008BE79B /* Description Cell.swift */; };
+		ACA1E4931FBFD25100442594 /* athNewsWebpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1E4921FBFD25100442594 /* athNewsWebpage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC0CC0EA1FBD36E2008693CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC0CC0CD1FBD36E1008693CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0CC0D41FBD36E1008693CD;
+			remoteInfo = RUAthletics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC0CC0D51FBD36E1008693CD /* RUAthletics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RUAthletics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0CC0D81FBD36E1008693CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC0CC0DD1FBD36E1008693CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC0CC0DF1FBD36E1008693CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC0CC0E21FBD36E1008693CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC0CC0E41FBD36E1008693CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC0CC0E91FBD36E2008693CD /* RUAthleticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RUAthleticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0CC0ED1FBD36E2008693CD /* RUAthleticsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RUAthleticsTests.swift; sourceTree = "<group>"; };
+		AC0CC0EF1FBD36E2008693CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC0CC0F81FBD37E9008693CD /* AthleticsNews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AthleticsNews.swift; sourceTree = "<group>"; };
+		AC0CC0FA1FBD38D5008693CD /* NewsArticle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsArticle.swift; sourceTree = "<group>"; };
+		AC0CC0FC1FBD390E008693CD /* StringKeyPair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringKeyPair.swift; sourceTree = "<group>"; };
+		AC7EFDE61FBFDE08008BE79B /* RUAthletics-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RUAthletics-Bridging-Header.h"; sourceTree = "<group>"; };
+		AC7EFDE71FBFDE09008BE79B /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		AC7EFDE81FBFDE09008BE79B /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		AC7EFDEA1FBFE196008BE79B /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		AC7EFDEC1FBFE605008BE79B /* Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		AC7EFDEE1FBFF438008BE79B /* GeneralEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralEvents.swift; sourceTree = "<group>"; };
+		AC7EFDF01FBFF97C008BE79B /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		AC7EFDF21FC27A57008BE79B /* GEWebpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GEWebpage.swift; sourceTree = "<group>"; };
+		AC7EFDF41FC2836C008BE79B /* NavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
+		AC7EFDF61FC3B72F008BE79B /* Description Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Description Cell.swift"; sourceTree = "<group>"; };
+		ACA1E4921FBFD25100442594 /* athNewsWebpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = athNewsWebpage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC0CC0D21FBD36E1008693CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0CC0E61FBD36E2008693CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC0CC0CC1FBD36E1008693CD = {
+			isa = PBXGroup;
+			children = (
+				AC0CC0D71FBD36E1008693CD /* RUAthletics */,
+				AC0CC0EC1FBD36E2008693CD /* RUAthleticsTests */,
+				AC0CC0D61FBD36E1008693CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC0CC0D61FBD36E1008693CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC0CC0D51FBD36E1008693CD /* RUAthletics.app */,
+				AC0CC0E91FBD36E2008693CD /* RUAthleticsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC0CC0D71FBD36E1008693CD /* RUAthletics */ = {
+			isa = PBXGroup;
+			children = (
+				AC7EFDEC1FBFE605008BE79B /* Header.swift */,
+				AC7EFDE81FBFDE09008BE79B /* SWRevealViewController.h */,
+				AC7EFDE71FBFDE09008BE79B /* SWRevealViewController.m */,
+				ACA1E4921FBFD25100442594 /* athNewsWebpage.swift */,
+				AC0CC0D81FBD36E1008693CD /* AppDelegate.swift */,
+				AC0CC0DC1FBD36E1008693CD /* Main.storyboard */,
+				AC7EFDF01FBFF97C008BE79B /* ImageCell.swift */,
+				AC7EFDEA1FBFE196008BE79B /* Menu.swift */,
+				AC7EFDF61FC3B72F008BE79B /* Description Cell.swift */,
+				AC0CC0F81FBD37E9008693CD /* AthleticsNews.swift */,
+				AC7EFDEE1FBFF438008BE79B /* GeneralEvents.swift */,
+				AC0CC0FA1FBD38D5008693CD /* NewsArticle.swift */,
+				AC0CC0FC1FBD390E008693CD /* StringKeyPair.swift */,
+				AC0CC0DF1FBD36E1008693CD /* Assets.xcassets */,
+				AC0CC0E11FBD36E1008693CD /* LaunchScreen.storyboard */,
+				AC0CC0E41FBD36E1008693CD /* Info.plist */,
+				AC7EFDE61FBFDE08008BE79B /* RUAthletics-Bridging-Header.h */,
+				AC7EFDF21FC27A57008BE79B /* GEWebpage.swift */,
+				AC7EFDF41FC2836C008BE79B /* NavController.swift */,
+			);
+			path = RUAthletics;
+			sourceTree = "<group>";
+		};
+		AC0CC0EC1FBD36E2008693CD /* RUAthleticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC0CC0ED1FBD36E2008693CD /* RUAthleticsTests.swift */,
+				AC0CC0EF1FBD36E2008693CD /* Info.plist */,
+			);
+			path = RUAthleticsTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC0CC0D41FBD36E1008693CD /* RUAthletics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0CC0F21FBD36E2008693CD /* Build configuration list for PBXNativeTarget "RUAthletics" */;
+			buildPhases = (
+				AC0CC0D11FBD36E1008693CD /* Sources */,
+				AC0CC0D21FBD36E1008693CD /* Frameworks */,
+				AC0CC0D31FBD36E1008693CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RUAthletics;
+			productName = RUAthletics;
+			productReference = AC0CC0D51FBD36E1008693CD /* RUAthletics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC0CC0E81FBD36E2008693CD /* RUAthleticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0CC0F51FBD36E2008693CD /* Build configuration list for PBXNativeTarget "RUAthleticsTests" */;
+			buildPhases = (
+				AC0CC0E51FBD36E2008693CD /* Sources */,
+				AC0CC0E61FBD36E2008693CD /* Frameworks */,
+				AC0CC0E71FBD36E2008693CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC0CC0EB1FBD36E2008693CD /* PBXTargetDependency */,
+			);
+			name = RUAthleticsTests;
+			productName = RUAthleticsTests;
+			productReference = AC0CC0E91FBD36E2008693CD /* RUAthleticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC0CC0CD1FBD36E1008693CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "TBLE Technologies";
+				TargetAttributes = {
+					AC0CC0D41FBD36E1008693CD = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 62X7WJSPG7;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+					AC0CC0E81FBD36E2008693CD = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 62X7WJSPG7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC0CC0D41FBD36E1008693CD;
+					};
+				};
+			};
+			buildConfigurationList = AC0CC0D01FBD36E1008693CD /* Build configuration list for PBXProject "RUAthletics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC0CC0CC1FBD36E1008693CD;
+			productRefGroup = AC0CC0D61FBD36E1008693CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC0CC0D41FBD36E1008693CD /* RUAthletics */,
+				AC0CC0E81FBD36E2008693CD /* RUAthleticsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC0CC0D31FBD36E1008693CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0CC0E31FBD36E1008693CD /* LaunchScreen.storyboard in Resources */,
+				AC0CC0E01FBD36E1008693CD /* Assets.xcassets in Resources */,
+				AC0CC0DE1FBD36E1008693CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0CC0E71FBD36E2008693CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC0CC0D11FBD36E1008693CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7EFDED1FBFE605008BE79B /* Header.swift in Sources */,
+				AC7EFDE91FBFDE0A008BE79B /* SWRevealViewController.m in Sources */,
+				AC7EFDEB1FBFE196008BE79B /* Menu.swift in Sources */,
+				AC0CC0FD1FBD390E008693CD /* StringKeyPair.swift in Sources */,
+				AC0CC0FB1FBD38D5008693CD /* NewsArticle.swift in Sources */,
+				AC0CC0F91FBD37E9008693CD /* AthleticsNews.swift in Sources */,
+				ACA1E4931FBFD25100442594 /* athNewsWebpage.swift in Sources */,
+				AC7EFDF31FC27A57008BE79B /* GEWebpage.swift in Sources */,
+				AC0CC0D91FBD36E1008693CD /* AppDelegate.swift in Sources */,
+				AC7EFDEF1FBFF438008BE79B /* GeneralEvents.swift in Sources */,
+				AC7EFDF71FC3B72F008BE79B /* Description Cell.swift in Sources */,
+				AC7EFDF11FBFF97C008BE79B /* ImageCell.swift in Sources */,
+				AC7EFDF51FC2836C008BE79B /* NavController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0CC0E51FBD36E2008693CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0CC0EE1FBD36E2008693CD /* RUAthleticsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC0CC0EB1FBD36E2008693CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC0CC0D41FBD36E1008693CD /* RUAthletics */;
+			targetProxy = AC0CC0EA1FBD36E2008693CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC0CC0DC1FBD36E1008693CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC0CC0DD1FBD36E1008693CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC0CC0E11FBD36E1008693CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC0CC0E21FBD36E1008693CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC0CC0F01FBD36E2008693CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC0CC0F11FBD36E2008693CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC0CC0F31FBD36E2008693CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 62X7WJSPG7;
+				INFOPLIST_FILE = RUAthletics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TBLE.RUAthletics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RUAthletics/RUAthletics-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AC0CC0F41FBD36E2008693CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 62X7WJSPG7;
+				INFOPLIST_FILE = RUAthletics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TBLE.RUAthletics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RUAthletics/RUAthletics-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AC0CC0F61FBD36E2008693CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 62X7WJSPG7;
+				INFOPLIST_FILE = RUAthleticsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TBLE.RUAthleticsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RUAthletics.app/RUAthletics";
+			};
+			name = Debug;
+		};
+		AC0CC0F71FBD36E2008693CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 62X7WJSPG7;
+				INFOPLIST_FILE = RUAthleticsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TBLE.RUAthleticsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RUAthletics.app/RUAthletics";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC0CC0D01FBD36E1008693CD /* Build configuration list for PBXProject "RUAthletics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0CC0F01FBD36E2008693CD /* Debug */,
+				AC0CC0F11FBD36E2008693CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0CC0F21FBD36E2008693CD /* Build configuration list for PBXNativeTarget "RUAthletics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0CC0F31FBD36E2008693CD /* Debug */,
+				AC0CC0F41FBD36E2008693CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0CC0F51FBD36E2008693CD /* Build configuration list for PBXNativeTarget "RUAthleticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0CC0F61FBD36E2008693CD /* Debug */,
+				AC0CC0F71FBD36E2008693CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC0CC0CD1FBD36E1008693CD /* Project object */;
+}
